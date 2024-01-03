@@ -1,0 +1,190 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 38);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgb(51, 51, 51, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.signInForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+* {
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    display: block;
+    background-color: rgb(51, 51, 51, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    width: 250px;
+}
+
+label {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+input#check {
+    display: inline;
+}
+
+input#fio,
+input#email,
+input#login,
+input#pass {
+    width: 40%;
+    height: 1.25rem;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+input#fio:hover,
+input#email:hover,
+input#login:hover,
+input#pass:hover {
+    font-size: 20px;
+    width: 50%;
+    height: 1.5rem;
+    box-shadow: 0px 0px 20px black;
+}
+
+input#fio:focus,
+input#email:focus,
+input#login:focus,
+input#pass:focus {
+    font-size: 20px;
+    width: 50%;
+    height: 1.5rem;
+    box-shadow: 0px 0px 20px black;
+    border: 3px solid #1967D2;
+}
+
+#checkboxLabel {
+    text-align: left;
+    display: inline;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
+fieldset label {
+    display: inline;
+}
+
+div#src {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+select {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+input#file {
+    color: white;
+}
+
+input.inpbtn {
+    color: black;
+    border-radius: 10px;
+    width: 25%;
+    height: 3rem;
+    transition: 0.3s;
+}
+
+input.inpbtn:hover {
+    font-size: 24px;
+    width: 50%;
+    height: 4rem;
+    border: 3px solid #1967D2;
+    box-shadow: 0px 0px 20px black;
+}
+
+.chkBox {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
